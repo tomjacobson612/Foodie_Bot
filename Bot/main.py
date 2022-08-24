@@ -3,8 +3,9 @@ import re
 #import os
 import diceroller
 import foodIdeas
+import config
 
-token = 'MTAxMDk3NTM4NTQwNTYyODUyNg.GAGaZV.ittMzexz-M3yYqun2Ckq-e8r6niMYk_PWtBIRU'
+token = config.token
 #intents = discord.Intents(messages=True)
 #client = discord.Client(intents=intents)
 intents = discord.Intents.all()
