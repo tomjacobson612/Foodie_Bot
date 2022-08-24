@@ -6,8 +6,6 @@ import foodIdeas
 import config
 
 token = config.token
-#intents = discord.Intents(messages=True)
-#client = discord.Client(intents=intents)
 intents = discord.Intents.all()
 client = discord.Client(intents=intents)
 
