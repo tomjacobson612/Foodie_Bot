@@ -1,6 +1,6 @@
 import random
 
-foodOptions = ["burrito", "burger", "soup", "tendies", "salad :(", "takeout"]
+foodOptions = ["burrito", "burger", "soup", "tendies", "salad :(", "takeout", "poo poo"]
 
 def random_food():
   random.seed()
