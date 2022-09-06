@@ -1,17 +1,42 @@
+import asyncio
+import nextcord
+from nextcord import Interaction
 import discord
 import re
-#import os
+import deez as d
 import diceroller
 import foodIdeas
 import config
 
 token = config.token
+test_server_id = 899004736274055208
 intents = discord.Intents.all()
 client = discord.Client(intents=intents)
 
 @client.event
 async def on_ready():
   print("We have logged in as {0.user}".format(client))
+
+
+@client.slash_command(name = "deez", description = "deez nuts joke game", guild_ids = [test_server_id])
+async def deez(interaction: Interaction):
+  prompt = d.prompt()
+  sent = await interaction.response.send_message(prompt['prompt'])
+  sent = await sent.fetch()
+  await sent.add_reaction('😈')
+  await sent.add_reaction('❌')
+
+  def check(reaction, user):
+    return user == interaction.user and (str(reaction.emoji) == '😈' or str(reaction.emoji) == '❌')
+
+  try:
+    reaction, user = await client.wait_for('reaction_add', timeout=60.0, check=check)
+
+  except asyncio.TimeoutError:
+    await interaction.followup.send('Timer expired.')
+
+  else:
+    await interaction.followup.send(prompt['reply']['second'])
 
 
 @client.event
@@ -21,9 +46,9 @@ async def on_message(message):
     return
     # checks for specific author id
 
-  """if message.author.id == 100344908467961856:
+  '''if message.author.id == 100344908467961856:
     #adds reaction, arg must be valid UNICODE
-    await message.add_reaction('😈')"""
+    await message.add_reaction('😈')'''
 
   # if message starts with '$hello', then send 'Hello!'
   if message.content.startswith("!hello"):
@@ -40,6 +65,24 @@ async def on_message(message):
 
   elif message.content.startswith("!food"):
     await message.channel.send(foodIdeas.random_food())
+
+  '''elif message.content.startswith("/deez"):
+    prompt = d.prompt()
+    sent = await message.channel.send(prompt['prompt'])
+    await sent.add_reaction('😈')
+    await sent.add_reaction('❌')
+
+    def check(reaction, user):
+      return user == message.author and (str(reaction.emoji) == '😈' or sent.add_reaction('❌'))
+
+    try:
+      reaction, user = await client.wait_for('reaction_add', timeout=60.0, check=check)
+
+    except asyncio.TimeoutError:
+      await message.channel.send('Timer expired.')
+
+    else:
+      await message.channel.send(prompt['reply']['second'])'''
 
 
 client.run(token)
