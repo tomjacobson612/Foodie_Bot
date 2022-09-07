@@ -17,7 +17,7 @@
 },
 {
   "id": 3,
-  "prompt": "Hey, are you familar with Landon?",
+  "prompt": "Do you know Landon?",
   "reply": {
     "first": "Landon who?",
     "second": "Slip, fall then landon deez nuts."
@@ -89,11 +89,9 @@
 },
 {
   "id": 12,
-  "prompt": "Do you know who is coming to our party later on?",
+  "prompt": "Do you like jazz?",
   "reply": {
-    "first": "Yeah Dee is.",
-    "second": "Dee who?",
-    "third": "Deez nuts!"
+    "second": ""
   }
 },
 {
@@ -106,12 +104,9 @@
 },
 {
   "id": 14,
-  "prompt": "Knock knock.",
+  "prompt": "Do you know any Rabbi?",
   "reply": {
-    "first": "Who's there?",
-    "second": "Dee.",
-    "third": "Dee who?",
-    "fourth": "Deez nuts!"
+    "second": ""
   }
 },
 {
@@ -140,25 +135,23 @@
 },
 {
   "id": 18,
-  "prompt": "Do you know the new rapper Willya?",
+  "prompt": "You'll never guess who I saw hanging out together!",
   "reply": {
     "first": "Willya who?",
-    "second": "Willya put deez nuts in your mouth."
+    "second": "Deez nuts bitch."
   }
 },
 {
   "id": 19,
-  "prompt": "How do you say 'Yes, I would like some' in Spanish?",
+  "prompt": "Do you like Jimmy Fallon?",
   "reply": {
-    "first": "Si..",
-    "second": "(quickly interupt), see deez nuts!"
+    "second": "Fall on deez nuts."
   }
 },
 {
   "id": 20,
-  "prompt": "You: Dee was asking after you the other day.",
+  "prompt": "Dee was asking after you the other day.",
   "reply": {
-    "first": "Who is Dee?",
     "second": "Deez Nuts!"
   }
 },
@@ -172,12 +165,9 @@
 },
 {
   "id": 22,
-  "prompt": "Have you heard about this new breed of bunnies that have been emerging all over town?",
+  "prompt": "Slaw Bunnies are one of the rarest breeds, found only in northern regions of Africa.",
   "reply": {
-    "first": "Oh really?",
-    "second": "Yes, they are called Slaw Bunnies.",
-    "third": "Slaw Bunnies? What are they?",
-    "fourth": "Slob on Deez Nuts."
+    "second": "Slob on Deez Nuts."
   }
 },
 {
@@ -190,19 +180,17 @@
 },
 {
   "id": 24,
-  "prompt": "In all your subjects I am giving you D's.",
+  "prompt": "Do you like Megamind?",
   "reply": {
-    "first": "Well I am also going to be giving you D's.",
-    "second": "What do you mean?",
-    "third": "Deez nuts!"
+    "second": "Do you megamind me putting deez nuts in your face?"
   }
 },
 {
   "id": 25,
-  "prompt": "Have you played that Xbox game 'Sea Of Thieves'?",
+  "prompt": "Have you played Sea Of Thieves?",
   "reply": {
     "first": "Yes why?",
-    "second": "Well Sea Of Thieves Nuts fit in your mouth."
+    "second": "See if these Nuts fit in your mouth."
   }
 },
 {
@@ -215,15 +203,15 @@
 },
 {
   "id": 27,
-  "prompt": "I am so sick of this, it sucks!",
+  "prompt": "Have you ever been to dooma?",
   "reply": {
     "first": "What sucks?",
-    "second": "You suck on deez nuts."
+    "second": "doo mah nuts fit in yo mouth."
   }
 },
 {
   "id": 28,
-  "prompt": "Hey Mike, is Phil there?",
+  "prompt": "Hey Mike, is Phillip there?",
   "reply": {
     "first": "Phil who?",
     "second": "Fill up on deez nuts!"
@@ -298,7 +286,7 @@
   "prompt": "Have you heard of E10, that new space ship?",
   "reply": {
     "first": "E10? No.",
-    "second": "Eating deez nuts!"
+    "second": "Have you eaten deez nuts?"
   }
 },
 {
@@ -335,10 +323,10 @@
 },
 {
   "id": 42,
-  "prompt": "Have you tried that new burget with the jalapenos?",
+  "prompt": "You have been diagnosed with UCD.",
   "reply": {
     "first": "No, what's it called?",
-    "second": "All up in your face with deez nuts!"
+    "second": "UC-deez nuts."
   }
 },
 {
@@ -359,10 +347,9 @@
 },
 {
   "id": 45,
-  "prompt": "What's the male actor in the Penthouse K-Drama?",
+  "prompt": "Have you listend to Ron Howdy?",
   "reply": {
-    "first": "Joo Seok-hoon",
-    "second": "Suck on deez nuts!"
+    "second": "How deez nuts taste?"
   }
 },
 {
@@ -379,6 +366,391 @@
   "reply": {
     "first": "Yeah sure!",
     "second": "Both of deez nuts!"
+  }
+},
+
+  {
+  "id": 48,
+  "prompt": "I'm going to the store do you want anything?",
+  "reply": {
+    "second": ""
+  }
+},
+
+  {
+  "id": 49,
+  "prompt": "Did you call your momma yesterday?",
+  "reply": {
+    "second": ""
+  }
+},
+
+  {
+  "id": 50,
+  "prompt": "Have you heard of Northern Arizona University?",
+  "reply": {
+    "second": ""
+  }
+},
+
+  {
+  "id": 51,
+  "prompt": "Did you hear that Steve Jobs was diagnosed with Ligma?",
+  "reply": {
+    "first": "",
+    "second": "Ligma balls bitch."
+  }
+},
+
+   {
+  "id": 52,
+  "prompt": "Did you hear that they added mind goblins in Rings of Power?",
+  "reply": {
+    "second": "Mind gobblin deez nuts."
+  }
+},
+
+  {
+  "id": 53,
+  "prompt": "I hate the WoW quest where you have to collect 10 stun seed before time runs out.",
+  "reply": {
+    "second": "stun seed = dees nuts get rekt loser"
+  }
+},
+
+   {
+  "id": 54,
+  "prompt": "What sound does a turkey make?",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 55,
+  "prompt": "What did the thief steal from Dylan's old motorcycle?",
+  "reply": {
+    "second": "D's Nuts"
+  }
+},
+
+   {
+  "id": 56,
+  "prompt": "What's the Shadow Reef item that all the Runescape players are getting excited for?",
+  "reply": {
+    "second": "https://runescape.wiki/w/Dee%27s_nuts"
+  }
+},
+
+   {
+  "id": 57,
+  "prompt": "I can't believe they stayed together for more than 30 years.",
+  "reply": {
+    "second": "Deez nuts."
+  }
+},
+
+   {
+  "id": 58,
+  "prompt": "Sakon is my favorite musician.",
+  "reply": {
+    "second": "Sakon deez nuts."
+  }
+},
+
+   {
+  "id": 59,
+  "prompt": "I love Ma.",
+  "reply": {
+    "second": "Ma balls."
+  }
+},
+
+   {
+  "id": 60,
+  "prompt": "Do you like James Bond?",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 61,
+  "prompt": "Do you like James Gunn?",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 62,
+  "prompt": "Have you seen that new Marvel Movie?",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 63,
+  "prompt": "Whats that zone in WoW classic called? The one near Orgrimmar.",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 64,
+  "prompt": "Do you like playing Reyna in Valorant?",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 65,
+  "prompt": "Do you know what a stigma is?",
+  "reply": {
+    "second": "Stigma balls in yo mouth."
+  }
+},
+
+   {
+  "id": 66,
+  "prompt": "I was recently diagnosed with astigmatism.",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 67,
+  "prompt": "Whats that defense against the dark arts professor from Harry Potter called?",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 68,
+  "prompt": "I was recently diagnosed with ABPA.",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 69,
+  "prompt": "Did you hear Tom had to go in for a biopsy?",
+  "reply": {
+    "second": "Biopsee deez nuts."
+  }
+},
+
+   {
+  "id": 71,
+  "prompt": "Did you do the summer reading?",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 71,
+  "prompt": "Do you watch pewdiepie?",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 72,
+  "prompt": "Do you watch Mr. Beast?",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 73,
+  "prompt": "Who was the president before Obama?",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 74,
+  "prompt": "What is the main zone in Lost Ark called again?",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 75,
+  "prompt": "What was Paul's discord name again?",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 76,
+  "prompt": "Do you know Lancelot?",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 77,
+  "prompt": "What's the main bad guy in Zelda called?",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 78,
+  "prompt": "What's the name of that gun that mobsters use?",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 79,
+  "prompt": "What sound does a cat make?",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 80,
+  "prompt": "My favorite greek god is Bofadee.",
+  "reply": {
+    "second": "Bofa deez nuts in yo face."
+  }
+},
+
+   {
+  "id": 81,
+  "prompt": "What is that fire slug pokemon called?",
+  "reply": {
+    "second": "Slugma balls."
+  }
+},
+
+   {
+  "id": 82,
+  "prompt": "Whats is that seal pokemon called again?",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 83,
+  "prompt": "Which gen1 pokemon was yellow and black?",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 84,
+  "prompt": "Have you seen the Avengers?",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 85,
+  "prompt": "Do you like Lord of the Rings?",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 86,
+  "prompt": "Do you like Pokemon?",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 87,
+  "prompt": "Do you enjoy basketball?",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 88,
+  "prompt": "Have you heard of the word Snickersnee?",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 89,
+  "prompt": "Can you pass me that Gubbins?",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 90,
+  "prompt": "Look at that guy what a Bacchanal.",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 91,
+  "prompt": "You are so Finifugal.",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 92,
+  "prompt": "Do you have an Imago of me?",
+  "reply": {
+    "second": ""
+  }
+},
+
+   {
+  "id": 93,
+  "prompt": "This dude is such a whiffler.",
+  "reply": {
+    "second": ""
+  }
+},
+
+  {
+  "id": 94,
+  "prompt": "Have you heard of Wrangler jeans?",
+  "reply": {
+    "second": ""
+  }
+},
+
+  {
+  "id": 95,
+  "prompt": "What's another name for Band Practice?",
+  "reply": {
+    "second": "Jam deez nuts in yo mouth session."
   }
 }
 ]

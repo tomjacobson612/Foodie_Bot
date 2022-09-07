@@ -21,13 +21,36 @@ async def on_ready():
 @client.slash_command(name = "deez", description = "deez nuts joke game", guild_ids = [test_server_id])
 async def deez(interaction: Interaction):
   prompt = d.prompt()
+  #prompt = d.prompt_test()
+
   sent = await interaction.response.send_message(prompt['prompt'])
   sent = await sent.fetch()
-  await sent.add_reaction('😈')
+  await sent.add_reaction('🥜')
   await sent.add_reaction('❌')
 
   def check(reaction, user):
-    return user == interaction.user and (str(reaction.emoji) == '😈' or str(reaction.emoji) == '❌')
+    '''#is a joke
+    if prompt['reply']['second'] != '':
+      if user == interaction.user and str(reaction.emoji) == '🥜':
+        return True
+
+      elif user == interaction.user and str(reaction.emoji) == '❌':
+        return True
+
+      else:
+        return False
+
+    else:
+      if user == interaction.user and str(reaction.emoji) == '❌':
+        return True
+
+      elif user == interaction.user and str(reaction.emoji) == '🥜':
+        return True
+
+      else:
+        return False'''
+
+    return user == interaction.user and (str(reaction.emoji) == '🥜' or str(reaction.emoji) == '❌')
 
   try:
     reaction, user = await client.wait_for('reaction_add', timeout=60.0, check=check)
@@ -36,7 +59,21 @@ async def deez(interaction: Interaction):
     await interaction.followup.send('Timer expired.')
 
   else:
-    await interaction.followup.send(prompt['reply']['second'])
+    #Is a joke
+    if prompt['reply']['second'] != '':
+
+      if str(reaction) == '🥜':
+        await interaction.followup.send('Nice Job, it was a deez nuts joke! \n' + 'Punchline: ' + prompt['reply']['second'])
+
+      else:
+        await interaction.followup.send(d.j_response() + '\n' + 'Punchline: ' + prompt['reply']['second'])
+
+    #Not a joke, X is correct and ✅ is incorrect
+    else:
+      if str(reaction) == '❌':
+        await interaction.followup.send('Nice Job, it was not a deez nuts joke!')
+      else:
+        await interaction.followup.send(d.nj_response())
 
 
 @client.event
