@@ -9,7 +9,8 @@ import foodIdeas
 import config
 
 token = config.token
-test_server_id = 899004736274055208
+test_server_id = 107205887919177728
+#899004736274055208 THIS IS THE STRIM ID
 intents = discord.Intents.all()
 client = discord.Client(intents=intents)
 
@@ -18,7 +19,8 @@ async def on_ready():
   print("We have logged in as {0.user}".format(client))
 
 
-@client.slash_command(name = "deez", description = "deez nuts joke game", guild_ids = [test_server_id])
+@client.slash_command(name = "deez", description = "React with 🥜 if you think it is a deez nuts "
+                      "joke or ❌ if you think it is not a deez nuts joke.")#, guild_ids = [test_server_id])
 async def deez(interaction: Interaction):
   prompt = d.prompt()
   #prompt = d.prompt_test()
@@ -87,7 +89,7 @@ async def on_message(message):
     #adds reaction, arg must be valid UNICODE
     await message.add_reaction('😈')'''
 
-  # if message starts with '$hello', then send 'Hello!'
+  # if message starts with '!hello', then send 'Hello!'
   if message.content.startswith("!hello"):
     await message.channel.send("Hello!")
 
